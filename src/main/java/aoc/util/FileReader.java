@@ -28,8 +28,6 @@ public class FileReader
                 result.add(line);
             }
 
-            scanner.close();
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
