@@ -8,6 +8,14 @@
     <artifactId>aoc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang-3</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
